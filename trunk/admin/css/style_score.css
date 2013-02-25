@@ -1,0 +1,31 @@
+/* 
+    Document   : style_score
+    Created on : Mar 21, 2012, 12:47:27 PM
+    Author     : sochy.choeun
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.input_score{
+    background-image: url("../images/menu/icon-16-new.png");
+}
+.remove_score{
+    background-image: url("../images/menu/icon-16-delete2.png");
+}
+.edit_score{
+    background-image: url("../images/menu/icon-16-edit2.png");
+}
+.report{
+    background-image: url("../images/menu/icon-16-search.png");
+}
+.edit_score,.remove_score, .input_score, .report{
+    
+    background-position: 8px 0;
+    background-repeat: no-repeat;
+    padding: 0 0 5px 25px;
+}

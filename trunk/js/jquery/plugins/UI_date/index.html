@@ -1,0 +1,38 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Include ui.datepicker.ent in the DOCTYPE declaration for valid XHTML documents with inline configuration -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>jQuery UI Datepicker</title>
+
+        <!-- Include UI Datepicker CSS -->
+        <link rel="stylesheet" type="text/css" href="core/ui.datepicker.css" title="default"/>
+
+        <!-- Include jQuery -->
+        <script type="text/javascript" src="core/jquery.js"></script>
+
+        <!-- Include UI Datepicker -->
+        <script type="text/javascript" src="core/ui.datepicker.js"></script>
+
+
+        <script type="text/javascript">
+            $(function(){
+                $('.invokeBoth').attachDatepicker({showOn: 'both', buttonImage: 'img/calendar.gif', buttonImageOnly: true});
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrap">
+
+
+
+            <p><span class="demoLabel">Keyboard driven:</span>
+                <input type="text" size="10" class="invokeBoth"/></p>
+
+
+
+        </div>
+    </body>
+</html>
